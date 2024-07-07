@@ -24,6 +24,13 @@
     color: white;
     padding: 18px 35px;
     border-radius: 5px;
+    border: none;
+}
+/* Header styles */
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: top left , bottom right;
 }
 /* Nav Styles */
 nav{
@@ -52,3 +59,24 @@ nav li a {
     font-size: 20px;
 }
 
+/* Banner Styles */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 230px;
+}
+.banner-content{
+    max-width: 580px;
+
+}
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-profile-pic{
+    width: 580px;
+}
